@@ -48,5 +48,31 @@ public class TigaLoop {
 
         System.out.println();
         System.out.println("===== SATU DERET, TIGA LOOP =====");
+        // Versi 1: for. Pencacahnya i, hidup hanya di dalam for.
+        System.out.print("for      :");
+        for (int i = 1; i <= n; i++) {
+            System.out.print(" " + i);
+        }
+        System.out.println();
+
+        // Versi 2: while. Pencacahnya j, dideklarasikan dan dinaikkan manual.
+        System.out.print("while    :");
+        int j = 1;
+        while (j <= n) {
+            System.out.print(" " + j);
+            j++;
+        }
+        System.out.println();
+
+        // Versi 3: do-while. Pencacahnya k. Badan jalan dulu, baru kondisi dicek.
+        System.out.print("do-while :");
+        int k = 1;
+        do {
+            System.out.print(" " + k);
+            k++;
+        } while (k <= n);
+        System.out.println();
+
+        System.out.println();
     }
 }
