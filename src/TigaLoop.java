@@ -40,4 +40,13 @@ public class TigaLoop {
      * KESIMPULAN: do-while mengecek kondisinya sesudah badan loop dijalankan,
      * jadi badannya pasti jalan minimal sekali.
      */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Batas deret (n) : ");
+        int n = input.nextInt();
+
+        System.out.println();
+        System.out.println("===== SATU DERET, TIGA LOOP =====");
     }
+}
